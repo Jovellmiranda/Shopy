@@ -1,0 +1,235 @@
+/* app.css */
+
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login Page Styles */
+.login-container {
+  max-width: 100px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin: 15px 0;
+}
+
+input {
+  width: 24%;
+  margin-left: 639px;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.login-button {
+  width: 5%;
+  margin-left: 950px;
+  padding: 10px;
+  background-color: #569ee7;
+  color: #171616;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button {
+  width: 10%;
+  padding: 10px;
+  background-color: #569ee7;
+  color: #171616;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: #007bff;
+}
+
+/* Home Page Styles */
+/* home.css */
+
+.home-container {
+  max-width: 800px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo-image {
+  width: 250px;
+  height: 189px;
+  position: absolute;
+  top: -1; /* Adjust the top position as needed */
+  left: 0%; /* Move the logo to the right of huhu.png */
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.huhu-image {
+  position: relative;
+  width: 1200px;
+  height: 200px;
+  right: -50px;
+}
+
+.icon-container {
+  position: absolute;
+  top: 35%; /* Adjust the top position as needed */
+  right: -0; /* Position icons on the right side */
+  transform: translateY(-50%); /* Center vertically */
+}
+
+.icon-container svg {
+  font-size: 54px; /* Adjust the font size as needed */
+}
+
+.home-image {
+  width: 1500px;
+  height: 800px;
+  display: block;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+.l-button {
+  width: 810px; /* Adjust the width as needed */
+  height: 60px;
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the text within the button */
+}
+
+.button-container {
+  display: flex;
+  gap: 200px;
+}
+
+.custom-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #050505;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button img {
+  width: 50px; /* Adjust the image width as needed */
+  height: 50px; /* Adjust the image height as needed */
+  margin-bottom: 5px;
+}
+
+nav {
+  display: inline-flex;
+  margin-left: 1100px; /* Move the navigation bar to the right */
+  justify-content: space-around; /* Adjust as needed, or use space-between for space between items */
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: blue;
+  width: 100px; /* Adjust the width as needed */
+  display: inline-block; /* Ensure the width property takes effect */
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.right-section {
+  flex: 2;
+}
+
+/* Company Page Styles */
+/* company.css */
+
+.p-icons-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.p-icon {
+  font-size: 24px;
+  color: #333;
+}
+
+
+.nav-container {
+  display: inline-flex;
+  margin-left: 1100px; /* Move the navigation bar to the right */
+  justify-content: space-around; /* Adjust as needed, or use space-between for space between items */
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  color: blue;
+  width: 100px; /* Adjust the width as needed */
+  display: inline-block; /* Ensure the width property takes effect */
+  padding: 10px; /* Adjust padding as needed */
+  text-decoration: none;
+}
+
+.o-button {
+  width: 810px; /* Adjust the width as needed */
+  height: 60px;
+  padding: 10px; /* Adjust padding as needed */
+  text-align: center; /* Center the text within the button */
+}
+
+.o-button-container {
+  display: flex;
+  gap: 200px;
+}
+
+.o-custom-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #050505;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  
+  margin-top: 10px; /* Adjust the margin as needed */
+}
